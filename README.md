@@ -40,11 +40,11 @@ Name this function emotion_detector
 
 ### Task 4: Package the application
 
-- 4a: Screenshot of the successfully created EmotionDetection.
+- 4a: Screenshot of the successfully created Emotion Detection package.
 ![Logo](images/4a_packaging.png)
 
 
-- 4b: Screenshot of the test packaged by using a phrase: " I hate working long hours" and verifying that its output is **"anger"**.
+- 4b: Screenshot of the test packaged by using a phrase: "I hate working long hours" and verifying that its most likely output is **"anger"**.
 ![Logo](images/4b_packaging_test.png)
 
 
@@ -75,7 +75,7 @@ tests it for the following statements and dominant emotions.
 ![Logo](images/6a_server.png)
 
 
-- 6b: Snapshot of the final deployed application, successfully testing it for the statement “I think I am having fun”.
+- 6b: Snapshot of the final deployed application, successfully testing it for the statement “I think I am having fun”, whose dominant emotion is **joy**.
 ![Logo](images/6b_deployment_test.png)
 
 ### Task 7: Incorporate Error handling
@@ -87,7 +87,7 @@ tests it for the following statements and dominant emotions.
 - 7b: Snapshot of the edited error handling function when the dominant emotion is **None**.
 ![Logo](images/7b_error_handling_server.png)
 
-- 7c: Snapshot of the deployed application, displaying as a result “Invalid Text! Please try again!.“, when the dominant emotion is **None**.
+- 7c: Snapshot of the deployed application, displaying as a result “Invalid Text! Please try again!“, when the dominant emotion is **None**.
 ![Logo](images/7c_error_handling_interface.png)
 
 
@@ -96,7 +96,7 @@ tests it for the following statements and dominant emotions.
 - 8a: Modifying the server.py file in order to pass in the linting process by using PyLint.
 ![Logo](images/8a_server_modified.png)
 
-- 8b: Snapshot of the static code analysis, showing that it ran successfully, scoring 10 of 10.
+- 8b: Snapshot of the static code analysis, showing that it ran successfully, scoring 10 out of 10.
 ![Logo](images/8b_static_code_analysis.png)
 
 ## Conclusions
